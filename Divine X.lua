@@ -159,6 +159,7 @@ function library:CreateWindow(name)
 
 			UICorner.Parent = Button
 		end
+		return objects
 	end
 	return tabs
 end
